@@ -1,6 +1,6 @@
 # UPA Project No. 3
 
-This is a web scraping demonstration projcet for UPA - Data Storage and Preparation, BUT - Brno University of Technology, Faculty of Infromation Technology.
+This is a web scraping demonstration project for UPA - Data Storage and Preparation, BUT - Brno University of Technology, Faculty of Infromation Technology.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ This is a web scraping demonstration projcet for UPA - Data Storage and Preparat
   - [TSV](#tsv)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
-- [Acknowledgements](#acknowledgements)
+- [References](#references)
 
 ## Overview
 
@@ -29,7 +29,7 @@ Our team - *tUPAc* consists of three members:
 
 We picked a book selling website [Wordery](https://wordery.com) available through this URL link <https://wordery.com>. This website was selected due to several key reasons.
 
-Firstly, it does not explicitly prohibit web scraping activities in its terms of service, providing a legaly available environment for data extraction. This characteristic allowd our team to gather information from the website without concerns about violating usage policies.
+Firstly, it does not explicitly prohibit web scraping activities in its terms of service, providing a legaly available environment for data extraction. This characteristic allowed our team to gather information from the website without concerns about violating usage policies.
 
 Secondly, Wordery lacks specific protective measures against automated spiders, crawlers, or bots. The absence of such anti-scraping mechanisms simplifies the extraction process, enabling a smoother and more straightforward web scraping experience. This makes Wordery an ideal candidate for collecting data efficiently and without encountering unnecessary obstacles.
 
@@ -89,8 +89,11 @@ List of arguments:
 
 \* = Argument is optional
 
-A demonstraction can be executed as per assignment instructions `run.sh`. The shell script (executing the python script with `-u` argument) downloads at least 100 book URLs starting from page in range 1 to 10 randomized. Those URLs are stored in file `test_urls.txt`. The python script is then executed again to scrape the first 10 URLs for data. Those data are displayed in a TSV format to the STDOUT.
+A demonstration can be executed as per assignment instructions `run.sh`. The shell script (executing the python script with `-u` argument) downloads at least 100 book URLs starting from page in range 1 to 10 randomized. Those URLs are stored in file `test_urls.txt`. The python script is then executed again to scrape the first 10 URLs for data. Those data are displayed in a TSV format to the STDOUT.
 
-## Acknowledgements
+## References
 
-bbb
+- [Wordery](https://wordery.com)
+- [Python documentation](https://docs.python.org/3.10/)
+- [Requests module documentation](https://requests.readthedocs.io/en/latest/)
+- [Beautifulsoup4 module documentation](https://beautiful-soup-4.readthedocs.io/en/latest/)
